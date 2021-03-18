@@ -138,12 +138,12 @@ def welcome(o=""):
     truth = True
     welcome_screen.geometry(WINDOW_DIM)
     welcome_screen.resizable(False, False)
-    welcome_screen.title("MarvellOS")
+    welcome_screen.title("OSmockUp")
     welcome_screen.config(bg=background)
 
     title_label = Label(
         welcome_screen,
-        text="MarvellOS",
+        text="OSmockUp",
         bg=background,
         fg="dark blue",
         font=("Curlz MT", 35),
@@ -195,7 +195,7 @@ def welcome(o=""):
     )  # output label
 
     """----------------VERSION UPDATE LABEL----------------"""
-    t = "MarvellOS v1.3"
+    t = "OSmockUp v"
 
     inf = Label(
         welcome_screen,
